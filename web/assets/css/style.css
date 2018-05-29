@@ -1,7 +1,10 @@
+/* CSS koder */
 html, body{
     margin: 0;
     padding: 0;
 }
+
+ /* Bakgrunden */
 body {
     background-color: grey;
     font-family: Arial, Helvetica, sans-serif;
@@ -19,7 +22,7 @@ img {
     background-color: whitesmoke;
 }
     
-
+ /* Navigarion/Menu */
 .topnav {
     position:  -webkit-sticky;
     position: sticky;
@@ -48,7 +51,7 @@ img {
     color: white;
 }
     
-    
+ /* Footer */    
 .footer {
     background-color: skyblue;
     position: center;
@@ -56,19 +59,23 @@ img {
     margin-bottom: 0px;
     }
 
-
-.article-top {
+ /* Artiklar */
+article {
+    
+}
+article>h2 {
     text-align: center; 
     color: black; 
     font-size: 28px;
 }
 
-.article-img {
-    width: 49%; 
+article>img {
+    width: 100%; 
     height: auto;
 }
 
-.article-text {
+article>p {
     margin: 20px;
     font-size: 16px;
 }
+
